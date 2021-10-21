@@ -1,0 +1,1 @@
+(this["webpackJsonpvb-demo"]=this["webpackJsonpvb-demo"]||[]).push([[86],{1688:function(t,e,s){"use strict";s.r(e);var i=s(1),c=(s(0),s(275));e.default=function(){return Object(i.jsxs)("div",{children:[Object(i.jsx)(c.a,{title:"Widgets"}),Object(i.jsx)("div",{})]})}}}]);
