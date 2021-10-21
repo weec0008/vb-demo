@@ -1,5 +1,6 @@
 {
-  "name": "visual-builder-react-cra",
+  "name": "vb-demo",
+  "homepage": "https://weec0008.github.io/vb-demo",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -15,7 +16,9 @@
     "build-deploy": "yarn vb-full && yarn build-demo && yarn deploy && yarn vb-seed",
     "vb": "node ./scripts/vb.js",
     "vb-full": "REDIRECT_URL=/dashboard/alpha node ./scripts/generate.js --config=config-full.json",
-    "vb-seed": "node ./scripts/generate.js --config=config-seed.json"
+    "vb-seed": "node ./scripts/generate.js --config=config-seed.json",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "husky": {
     "hooks": {
